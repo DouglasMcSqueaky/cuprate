@@ -10,6 +10,8 @@ Here are some key improvements and differences that Cuprate brings:
 *   **Clear Documentation:** Cuprate will build extensive documentation, which explains how it works from the ground up. This makes it easier for new developers to contribute in the future.
 *   **Benchmarking**: Cuprate has a built-in benchmarking system for testing and improving its performance. This ensures that it's not just safe but also efficient.
 
+## An Example Use Case
+
 Wallet software is a good user facing example of how Cuprate can improve the experience of using the Monero network. Let's think of your Monero wallet app as a house, and the software that powers it is like the foundation of that house. Currently, many wallets use a foundation called `monerod`, which is built with older materials (C++ code). `cuprated` is like a new, more advanced foundation built with modern materials (Rust code). This new foundation has several potential advantages:
 
 *   **More Stable:** Rust is known for being very careful with how it manages resources. This means there's a good chance your wallet will have fewer crashes and be more reliable. It’s like having a house with a very solid foundation that can withstand a storm, ensuring the house stands strong and firm.
