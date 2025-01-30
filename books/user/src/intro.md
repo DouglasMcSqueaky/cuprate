@@ -7,8 +7,8 @@ Here are some key improvements and differences that Cuprate brings:
 *   **Improved Safety**: Rust is known for its memory safety features, which can help prevent crashes and vulnerabilities that might occur in C++ code. This means Cuprate may offer a more reliable and secure experience compared to monerod.
 *   **Modern Architecture:** Cuprate is designed with a modern architecture that can be easier to maintain, understand, and extend. This is achieved through well-defined components, clear documentation, and modern software engineering practices.
 *   **Focus on Modularity:** Cuprate is built with a modular approach, which means it's broken down into smaller, independent parts that interact with each other. This makes it easier to develop new features and fix issues.
-*   **Clear Documentation:** Cuprate has extensive documentation, which explains how it works from the ground up. This makes it easier for developers to contribute.
-*   **Benchmarking**: Cuprate has a built-in benchmarking system for testing and improving its performance. This ensures that it's not just safe but also optimized for efficiency.
+*   **Clear Documentation:** Cuprate will build extensive documentation, which explains how it works from the ground up. This makes it easier for developers to contribute.
+*   **Benchmarking**: Cuprate has a built-in benchmarking system for testing and improving its performance. This ensures that it's not just safe but also efficient.
 
 Wallet software is a good user facing example of how Cuprate can improve the experience of using the Monero network. Let's think of your Monero wallet app as a house, and the software that powers it is like the foundation of that house. Currently, many wallets use a foundation called `monerod`, which is built with older materials (C++ code). Cuprate is like a new, **more advanced foundation** built with modern materials (Rust code). This new foundation has several potential advantages:
 
@@ -26,7 +26,5 @@ Wallet software is a good user facing example of how Cuprate can improve the exp
 
 *  **Built-in Monitoring**: Cuprate is built with tools to help monitor its performance and find any issues. This means wallet developers can collect information and spot problems, which helps make your app run better. It's like having a house with built-in sensors that alert the homeowner to any potential problems.
 
-*   **Rigorous Testing:** Cuprate comes with tools to test its performance and compatibility. This means wallet developers can be confident their application works correctly with Cuprate. It’s like having a house that has been rigorously inspected by engineers to ensure it can safely withstand the elements.
-
-It is important to remember that **Cuprate is not a wallet app itself**. It's an underlying technology that wallet apps can use, and it is meant to be an alternative to `monerod` - not a replacement. All these improvements aim to help developers build better and more reliable Monero software by relying on Cuprate instead of the older `monerod` software. The end result is a better, smoother, and more secure experience for you even if you never directly interact with Cuprate.
+Cuprate is not a user facing app itself. It's an underlying technology that Monero devlopers can use, and it is meant to be an alternative to `monerod` - not a replacement. All these improvements aim to help developers build better and more reliable Monero software by relying on Cuprate instead of the older `monerod` software. The end result is a better, smoother, and more secure experience for you even if you never directly interact with Cuprate.
 
