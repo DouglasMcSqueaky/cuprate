@@ -5,7 +5,7 @@
 - [Verify](todo.md)
 - [Installation](todo.md)
 - [Setup Guide](todo.md)
-- [Sample Config File](todo.md)
-- [Wallet Inegration](todo.md)
+- [Example Config File](todo.md)
+- [Wallet Integration](todo.md)
 
 
