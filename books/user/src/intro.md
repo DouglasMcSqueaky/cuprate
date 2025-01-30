@@ -1,6 +1,6 @@
 # What is Cuprate?
 
-Cuprate is an alternative implementation of a <a href="https://getmonero.org">Monero</a> node, designed to be a building block for the Monero network. Think of a Monero node as a crucial piece of software that helps maintain the network by verifying transactions and keeping a copy of the blockchain. While the original Monero node software, called 'monerod', is written in C++, Cuprate is built using the <a href="https://www.rust-lang.org/">Rust</a> programming language.
+Cuprate is an alternative implementation of a <a href="https://getmonero.org">Monero</a> node, designed to be a building block for the Monero network. Think of a Monero node as a crucial piece of software that helps maintain the network by verifying transactions and keeping a copy of the blockchain. While the original Monero node software, called `monerod` (or "Monero daemon"), is written in C++, Cuprate is built using the <a href="https://www.rust-lang.org/">Rust</a> programming language. This new daemon is known as `cuprated`.
 
 Here are some key improvements and differences that Cuprate brings:
 
