@@ -12,9 +12,9 @@ Here are some key improvements and differences that Cuprate brings:
 
 ## An Example Use Case
 
-Wallet software is a good user facing example of how Cuprate can improve the experience of using the Monero network. Let's think of your Monero wallet app as a house, and the software that powers it is like the foundation of that house. Currently, many wallets use a foundation called `monerod`, which is built with older materials (C++ code). `cuprated` is like a new, more advanced foundation built with modern materials (Rust code). This new foundation has several potential advantages:
+Wallet software is a good user facing example of how Cuprate can improve the experience of using the Monero network. Let's think of your Monero wallet app as a house, and the software that powers it is like the foundation of that house. Currently, many wallets use `monerod` as their foundation, which is built with older materials (C++ code). `cuprated` is like a new, more advanced foundation built with modern materials (Rust code). This new foundation has several potential advantages:
 
-*   **More Stable:** Rust is known for being very careful with how it manages resources. This means there's a good chance your wallet will have fewer crashes and be more reliable. It’s like having a house with a very solid foundation that can withstand a storm, ensuring the house stands strong and firm.
+*   **More Stable:** Rust is known for being very careful with how it manages resources. This means there's a good chance your wallet will have fewer crashes and general performance issues. It’s like having a house with a very solid foundation, ensuring the house stands firm.
 
 *   **Faster and More Efficient:** The new "foundation" is designed to be fast and efficient. This means a Monero wallet could feel more responsive, like opening up quicker, processing transactions faster, and syncing more rapidly with the Monero network.
 
@@ -23,8 +23,6 @@ Wallet software is a good user facing example of how Cuprate can improve the exp
 *   **Choice of Storage Materials:** Cuprate lets developers choose different ways to store your wallet's data, such as using either `heed` or `redb`. They can choose the one that's best for their app's needs. It’s like being able to choose the best type of material for your house’s foundation based on its needs and local environment.
 
 *   **Adjustable Data Protection:** Cuprate allows wallet apps to choose how carefully they save your data to the computer's hard drive. A user with a fast computer might choose to save data quickly, whereas a user on an older computer might choose a safer method that is slightly slower, making sure no data is lost. 
-
-*  **Built-in Monitoring**: Cuprate is built with tools to help monitor its performance and find any issues. This means wallet developers can collect information and spot problems, which helps make your app run better. It's like having a house with built-in sensors that alert the homeowner to any potential problems.
 
 Cuprate is not a user facing app itself (like the wallet example above). It's an underlying technology that Monero devlopers can use, and it is meant to be an alternative to `monerod` - not a replacement. All these improvements aim to help developers build better and more reliable Monero software by relying on `cuprated` instead of the older `monerod` software. The end result is a smoother and more secure experience for you even if you never directly interact with Cuprate.
 
